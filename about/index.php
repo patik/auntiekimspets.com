@@ -11,7 +11,7 @@ function print_page_body()
             </div>
 
             <div class="row margin-bottom-medium">
-                <div class="large-12 columns">
+                <div class="small-12 columns">
                     <h2>Kim Patik</h2>
                 </div>
 
@@ -34,15 +34,15 @@ function print_page_body()
                     <h2>Kyle Klippel</h2>
                 </div>
 
-                <div class="small-12 columns">
+                <div class="small-12 medium-7 columns">
                     <p>Hi, my name is Kyle Klippel. I have lived in the Capital Region my entire life. I am also Auntie Kim’s younger brother. I currently reside in Watervliet with my wife, Rebeka, and my dog, Jax. Jax is almost 3 years old and he is a Shepherd/Doberman mix. He is a mid-size dog, weight around 45 pounds. My family had a golden retriever when I was very young and then we rescued a Lab mix, Penny, in October 2005. Not too long after that in June 2006 we rescued another dog, Koko. Koko is a pure bred German Shepherd and currently lives with Auntie Kim and her husband. A lot of other extended family member’s have dogs as well, so I have been around pets most of my life.</p>
                     <p>In my spare time, I enjoy watching sports, especially baseball (New York Mets) and football (Tennessee Titans). I am currently enrolled at Siena College, studying in the History Education program.</p>
                     <p>I shower my pets with love, and can’t wait to show your pets some TLC!</p>
                 </div>
 
-                <?php /* <figure class="small-12 medium-5 columns center">
-                    <img src="/inc/img/lynn.jpg" alt="Lynn with Simone and Bingo">
-                </figure> */ ?>
+                <figure class="small-12 medium-5 columns center">
+                    <img src="/inc/img/kyle-jax.jpg" alt="Kyle with Jax">
+                </figure>
             </div>
 
             <div class="row">
