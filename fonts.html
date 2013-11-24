@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Regular.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Regular.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Italic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Italic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Italic.svg#OpenSansItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Bold.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Bold.svg#OpenSansBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.svg#OpenSansBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Combined';
+  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Regular.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Regular.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Combined';
+  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Italic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Italic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Italic.svg#OpenSansItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Combined';
+  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Bold.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Bold.svg#OpenSansBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Combined';
+  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot");
+  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.svg#OpenSansBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body,
+p {
+  font-family: "OpenSans", Consolas, monospace;
+}
+
+p.combined {
+  font-family: "Combined", Consolas, monospace;
+}
+
+.myriad {
+   font-family: "Myriad Pro", Trebuchet, sans-serif !important;
+}
+
+em.separate {
+  font-family: "OpenSansItalic", Consolas, monospace;
+  font-style: normal;
+}
+
+strong.separate {
+  font-family: "OpenSansBold", Consolas, monospace;
+  font-weight: normal;
+}
+
+strong em.separate,
+em strong.separate {
+  font-family: "OpenSansBoldItalic", Consolas, monospace;
+  font-weight: normal;
+  font-style: normal;
+}
+
+em.combined {
+  font-family: "Combined", Consolas, monospace;
+}
+
+strong.combined {
+  font-family: "Combined", Consolas, monospace;
+}
+
+strong.combined em.combined,
+em strong.combined {
+  font-family: "Combined", Consolas, monospace;
+}
+    </style>
+</head>
+<body>
+    <p>Regular:</p>
+    <p class="separate">The quick brown fox jumps over the lazy dog.</p>
+    <p class="combined">The quick brown fox jumps over the lazy dog.</p>
+    <p class="myriad">The quick brown fox jumps over the lazy dog.</p>
+
+    <p>Bold:</p>
+    <p><strong class="separate">The quick brown fox jumps over the lazy dog.</strong></p>
+    <p><strong class="combined">The quick brown fox jumps over the lazy dog.</strong></p>
+    <p class="myriad"><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+<!--
+    <p>Bold (normal):</p>
+    <p><strong class="normal">The quick brown fox jumps over the lazy dog.</strong></p>
+    <p class="myriad"><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+    <p class="myriad"><strong>The quick brown fox jumps over the lazy dog.</strong></p> -->
+
+    <p>Italic:</p>
+    <p><em class="separate">The quick brown fox jumps over the lazy dog.</em></p>
+    <p><em class="combined">The quick brown fox jumps over the lazy dog.</em></p>
+    <p class="myriad"><em>The quick brown fox jumps over the lazy dog.</em></p>
+<!--
+    <p>Italic (normal):</p>
+    <p><em class="normal">The quick brown fox jumps over the lazy dog.</em></p>
+    <p class="myriad"><em>The quick brown fox jumps over the lazy dog.</em></p> -->
+
+    <p>Bold Italic:</p>
+    <p><em><strong class="separate">The quick brown fox jumps over the lazy dog.</strong></em></p>
+    <p><em><strong class="combined">The quick brown fox jumps over the lazy dog.</strong></em></p>
+    <p class="myriad"><em><strong>The quick brown fox jumps over the lazy dog.</strong></em></p>
+
+    <!-- <p>Bold Italic (normal):</p>
+    <p><em class="normal"><strong class="normal">The quick brown fox jumps over the lazy dog.</strong></em></p>
+    <p class="myriad"><em><strong>The quick brown fox jumps over the lazy dog.</strong></em></p> -->
+</body>
+</html>

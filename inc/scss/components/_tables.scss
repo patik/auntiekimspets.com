@@ -1,0 +1,25 @@
+.rates {
+    width: 100%;
+    margin-bottom: 2em;
+
+    @include breakpoint(46em) {
+        width: 44em;
+    }
+
+    td, th {
+        font-size: 120%;
+        border: 1px solid $purple-light;
+        padding: 0.5em;
+        line-height: 1.6;
+
+        & > span {
+            font-size: 90%;
+            @include font-italic();
+        }
+
+        &:last-child {
+            text-align: center;
+            width: 20%;
+        }
+    }
+}
