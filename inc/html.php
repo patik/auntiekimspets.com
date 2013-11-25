@@ -59,8 +59,8 @@ class Print_html
     <?php if (!empty($this->styleSheets) && is_array($this->styleSheets)) {
             foreach ($this->styleSheets as $ss) { ?>
     <link rel="stylesheet" media="all" href="<?php echo $ss; ?>">
-    <?php   }
-    } ?>
+        <?php   }
+        } ?>
     <?php if (!empty($this->keywords)) { ?>
     <meta name="keywords" content="<?php echo $this->keywords; ?>">
     <?php } ?>
@@ -196,6 +196,7 @@ class Print_html
 </body>
 </html>
     <?php
+        }
     }
 }
 

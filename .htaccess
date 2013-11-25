@@ -3,8 +3,6 @@ RewriteCond %{HTTP_HOST} ^(www.)?lathampetsittings.com$ [NC]
 RewriteRule ^(.*)$ http://auntiekimspets.com/$1 [R=301,L]
 
 
-
-
 # Apache Configuration File
 
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have access
@@ -72,6 +70,7 @@ RewriteRule ^(.*)$ http://auntiekimspets.com/$1 [R=301,L]
 # http://www.webmasterworld.com/apache/3808792.htm
 
 Options -MultiViews
+# Options +Indexes +FollowSymLinks +SymLinksIfOwnerMatch +MultiViews
 
 # ------------------------------------------------------------------------------
 # | Custom error messages / pages                                              |
