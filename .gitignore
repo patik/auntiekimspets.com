@@ -29,3 +29,4 @@ node_modules
 inc/keys.php
 sftp-config.json
 other-domains
+inc/img/old
