@@ -83,7 +83,7 @@ function print_page_body()
             <div class="row">
                 <div class="small-12 columns">
                     <p>Prices do not include New York State sales tax</p>
-                    <p><img src="/inc/img/icons/credit-cards.png" alt="Visa, MasterCard, Discover, American Express"></p>
+                    <p><img src="/img/icons/credit-cards.png" alt="Visa, MasterCard, Discover, American Express"></p>
                 </div>
             </div>
     <?php

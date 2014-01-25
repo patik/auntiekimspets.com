@@ -1,0 +1,187 @@
+// Base styles
+// -----------------------
+
+html, body {
+    background: $light-purple;
+}
+
+body {
+    font-family: $font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include font-serif();
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+p {
+  font-family: $font-sans;
+}
+
+em,
+i {
+    @include font-italic();
+}
+
+strong,
+b {
+    @include font-bold();
+}
+
+strong em,
+em strong {
+    @include font-bold-italic();
+}
+
+a {
+    color: $purple;
+    text-decoration: underline;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $purple-light;
+        text-decoration: none;
+    }
+}
+
+abbr {
+    color: inherit;
+    font-size: inherit;
+}
+
+// Generic Classes
+
+.tagline {
+    @include font-italic();
+    text-align: center;
+
+    @include breakpoint($bp-small) {
+        font-size: 1.5em;
+    }
+}
+
+.skip-to {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid $primary-color;
+    @include border-radius(3px);
+    clip: rect(0, 0, 0, 0);
+    font-size: 1.4em;
+
+    &:focus {
+        clip: auto;
+        outline: 1px solid $primary-color;
+        z-index: 100;
+    }
+}
+
+.oldie .skip-to {
+    display: none !important; // ugh.
+}
+
+@include breakpoint($bp-small) {
+    span.hide-for-small { display: inline !important; }
+}
+
+.center {
+    text-align: center;
+}
+
+.no-js .hide-for-no-touch,
+.no-touch .hide-for-no-touch {
+    display: none !important;
+}
+
+.show-for-no-touch {
+    display: inherit !important;
+}
+
+div.show-for-no-touch,
+p.show-for-no-touch {
+    display: block !important;
+}
+
+.touch .show-for-no-touch {
+    display: none !important;
+}
+
+.margin-top-medium {
+    margin-top: 1em;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 1em;
+}
+
+.row.small-margin-bottom-medium {
+    margin-bottom: 1em;
+
+    @include breakpoint($bp-large) {
+        margin-bottom: 0;
+    }
+}
+
+figure img {
+    box-shadow: 0 0 4px $purple;
+    @include border-radius(3px);
+}
+
+.form-response {
+    @include font-bold-italic();
+    font-size: 140%;
+    color: $purple;
+}
+
+.home-phone {
+    p:first-child {
+        @include font-bold();
+        margin-bottom: 0;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            font-size: 1.5em;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: inherit;
+            }
+        }
+    }
+}
+
+// Foundation overrides
+.panel {
+    @include border-radius(3px);
+    // background-color: rgba(255, 255, 255, 0.6);
+    background-color: $light-purple-dark;
+    border-color: darken($light-purple-dark, 10%);
+    line-height: 1.6;
+}
+
+.textarea-height-2 {
+    min-height: 5em;
+}

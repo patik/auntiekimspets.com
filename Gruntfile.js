@@ -14,8 +14,8 @@ module.exports = function(grunt) {
                 files:
                     globule.findMapping(
                     [
-                         'inc/js/foundation/*.js', // Source files to find
-                        '!inc/js/foundation/*.min.js' // Source files to exclude
+                         'js/foundation/*.js', // Source files to find
+                        '!js/foundation/*.min.js' // Source files to exclude
                     ],
                     {
                         ext: '.min.js', // Give them a .min.js extension
@@ -26,10 +26,10 @@ module.exports = function(grunt) {
                 files:
                     globule.findMapping(
                     [
-                         'inc/js/vendor/*.js', // Source files to find
-                        '!inc/js/vendor/*.min.js', // Source files to exclude
-                        '!inc/js/vendor/respond.js', // Source files to exclude
-                        '!inc/js/vendor/jquery.js' // Source files to exclude
+                         'js/vendor/*.js', // Source files to find
+                        '!js/vendor/*.min.js', // Source files to exclude
+                        '!js/vendor/respond.js', // Source files to exclude
+                        '!js/vendor/jquery.js' // Source files to exclude
                     ],
                     {
                         ext: '.min.js', // Give them a .min.js extension
@@ -40,8 +40,8 @@ module.exports = function(grunt) {
                 files:
                     globule.findMapping(
                     [
-                         'inc/js/*.js', // Source files to find
-                        '!inc/js/*.min.js' // Source files to exclude
+                         'js/*.js', // Source files to find
+                        '!js/*.min.js' // Source files to exclude
                     ],
                     {
                         ext: '.min.js', // Give them a .min.js extension
@@ -62,13 +62,13 @@ module.exports = function(grunt) {
                 }
             },
             files: [
-                'inc/js/*.js',
-                '!inc/js/*.min.js',
-                '!inc/js/vendor/*.js',
-                '!inc/js/ga.js',
-                '!inc/js/gs.js',
-                '!inc/js/*.min.js',
-                '!inc/js/vendor.js'
+                'js/*.js',
+                '!js/*.min.js',
+                '!js/vendor/*.js',
+                '!js/ga.js',
+                '!js/gs.js',
+                '!js/*.min.js',
+                '!js/vendor.js'
             ]
         },
         watch: {
@@ -77,15 +77,15 @@ module.exports = function(grunt) {
                     interrupt: true
                 },
                 files: [
-                    'inc/js/*.js',
-                    '!inc/js/*.min.js',
-                    '!inc/js/vendor.js'
+                    'js/*.js',
+                    '!js/*.min.js',
+                    '!js/vendor.js'
                 ],
                 tasks: ['jshint']
             },
             sass: {
                 files: [
-                    'inc/scss/**/**.scss'
+                    'scss/**/**.scss'
                 ],
                 tasks: [
                     'dev' // 'sass:akp'
@@ -98,9 +98,9 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'inc/css/vendor.css': [
-                        'inc/scss/normalize.scss',
-                        'inc/scss/foundation.scss'
+                    'css/vendor.css': [
+                        'scss/normalize.scss',
+                        'scss/foundation.scss'
                     ]
                 }
             },
@@ -111,7 +111,7 @@ module.exports = function(grunt) {
                     lineNumbers: true
                 },
                 files: {
-                    'inc/css/site.css': 'inc/scss/style.scss'
+                    'css/site.css': 'scss/style.scss'
                 }
             }
         },
@@ -120,10 +120,10 @@ module.exports = function(grunt) {
                 files: [
                     {
                         src: [
-                            'inc/css/vendor.css',
-                            'inc/css/site.css'
+                            'css/vendor.css',
+                            'css/site.css'
                         ],
-                        dest: 'inc/css/style.css'
+                        dest: 'css/style.css'
                     }
                 ]
             },
@@ -131,12 +131,12 @@ module.exports = function(grunt) {
                 files: [
                     {
                         src: [
-                            'inc/js/vendor/jquery.min.js',
-                            'inc/js/vendor/jquery.magnific-popup.min.js',
-                            'inc/js/vendor/fastclick.min.js'
-                            // 'inc/js/foundation/foundation.js'
+                            'js/vendor/jquery.min.js',
+                            'js/vendor/jquery.magnific-popup.min.js',
+                            'js/vendor/fastclick.min.js'
+                            // 'js/foundation/foundation.js'
                         ],
-                        dest: 'inc/js/vendor.js'
+                        dest: 'js/vendor.js'
                     }
                 ]
             }
@@ -145,8 +145,8 @@ module.exports = function(grunt) {
             akp: {
                 files: [
                     {
-                        src: ['inc/css/style.css'],
-                        dest: 'inc/css/style.min.css'
+                        src: ['css/style.css'],
+                        dest: 'css/style.min.css'
                     }
                 ]
 

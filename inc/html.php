@@ -50,8 +50,8 @@ class Print_html
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title><?php if (!empty($this->pageTitle) && $this->name !== 'home') { echo $this->pageTitle . ' - '; } echo SITE_TITLE; ?></title>
-    <link rel="stylesheet" href="/inc/css/style.min.css">
-    <meta property="og:image" content="<?php echo SITE_BASE_URL; ?>/inc/img/icons/logo-square-og.png">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <meta property="og:image" content="<?php echo SITE_BASE_URL; ?>/img/icons/logo-square-og.png">
     <meta property="og:title" content="<?php echo SITE_TITLE; ?>">
     <meta property="og:url" content="<?php echo SITE_BASE_URL; if (!empty($this->name) && $this->name !== 'home') { echo '/' . $this->name . '/'; } ?>">
     <meta property="og:site_name" content="<?php echo SITE_TITLE; ?>">
@@ -70,16 +70,16 @@ class Print_html
     <meta name="twitter:creator" content="@AuntieKims">
     <meta name="twitter:title" content="<?php echo SITE_TITLE; ?>">
     <meta name="twitter:description" content="<?php echo $this->siteDescription; ?>">
-    <meta name="twitter:image:src" content="<?php echo SITE_BASE_URL; ?>/inc/img/icons/logo-square-og-120.png">
+    <meta name="twitter:image:src" content="<?php echo SITE_BASE_URL; ?>/img/icons/logo-square-og-120.png">
     <meta name="twitter:domain" content="<?php echo SITE_BASE_URL; ?>">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php $this->print_dir_level(); ?>inc/img/icons/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php $this->print_dir_level(); ?>inc/img/icons/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php $this->print_dir_level(); ?>inc/img/icons/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php $this->print_dir_level(); ?>inc/img/icons/apple-touch-icon-57x57-precomposed.png">
-    <link rel="shortcut icon" href="/inc/img/icons/favicon.ico">
-    <link rel="icon" href="/inc/img/icons/favicon.ico">
-    <script src="<?php $this->print_dir_level(); ?>inc/js/vendor/modernizr.js"></script>
-    <!--[if lte IE 8]><script src="/inc/js/vendor/respond.min.js"></script><![endif]-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php $this->print_dir_level(); ?>img/icons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php $this->print_dir_level(); ?>img/icons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php $this->print_dir_level(); ?>img/icons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php $this->print_dir_level(); ?>img/icons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" href="/img/icons/favicon.ico">
+    <link rel="icon" href="/img/icons/favicon.ico">
+    <script src="<?php $this->print_dir_level(); ?>js/vendor/modernizr.js"></script>
+    <!--[if lte IE 8]><script src="/js/vendor/respond.min.js"></script><![endif]-->
 </head>
 <body>
     <a href="#page" class="skip-to">Skip to Content</a>
@@ -167,8 +167,8 @@ class Print_html
     </footer>
 
     <?php /*
-    <script src="/inc/js/vendor.js"></script>
-    <script src="/inc/js/site.js"></script>
+    <script src="/js/vendor.js"></script>
+    <script src="/js/site.js"></script>
 
     <script>$(document).foundation();</script>
     <script>
@@ -179,7 +179,7 @@ class Print_html
             { load: '<?php echo $ss; ?>' },
         <?php }
             } ?>
-            // { load: '<?php $this->print_dir_level(); ?>inc/js/ga.js' }
+            // { load: '<?php $this->print_dir_level(); ?>js/ga.js' }
         ]);
     </script> */ ?>
     <script>

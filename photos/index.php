@@ -71,8 +71,8 @@ function print_page_body()
                     <div class="small-6 medium-4 large-3 columns">&nbsp;</div>
                 </div>
             </div>
-            <script src="/inc/js/vendor.js"></script>
-            <script src="/inc/js/site.js"></script>
+            <script src="/js/vendor.js"></script>
+            <script src="/js/site.js"></script>
     <?php
 }
 

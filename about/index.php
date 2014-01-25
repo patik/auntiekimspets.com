@@ -16,7 +16,7 @@ function print_page_body()
                 </div>
 
                 <figure class="small-12 medium-3 columns center">
-                    <img src="/inc/img/kim-koko-liebchen-siena-2012-small.jpg" alt="Auntie Kim with her German Shepherds, Liebchen and Koko">
+                    <img src="/img/kim-koko-liebchen-siena-2012-small.jpg" alt="Auntie Kim with her German Shepherds, Liebchen and Koko">
                 </figure>
 
                 <div class="small-12 medium-9 columns">
@@ -41,7 +41,7 @@ function print_page_body()
                 </div>
 
                 <figure class="small-12 medium-5 columns center">
-                    <img src="/inc/img/kyle-jax.jpg" alt="Kyle with Jax">
+                    <img src="/img/kyle-jax.jpg" alt="Kyle with Jax">
                 </figure>
             </div>
 
