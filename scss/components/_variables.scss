@@ -5,10 +5,10 @@ $breakpoint-to-ems: 'true';
 // Fonts
 // -------------------------
 $font-sans-fallback: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$font-sans: "SourceSansPro", $font-sans-fallback;
-$font-sans-bold: "SourceSansProBold", $font-sans-fallback;
-$font-sans-italic: "SourceSansProItalic", $font-sans-fallback;
-$font-sans-bold-italic: "SourceSansProBoldItalic", $font-sans-fallback;
+$font-sans: "Source Sans Pro", $font-sans-fallback;
+$font-sans-bold: "Source Sans Pro Bold", $font-sans-fallback;
+$font-sans-italic: "Source Sans Pro Italic", $font-sans-fallback;
+$font-sans-bold-italic: "Source Sans Pro Bold Italic", $font-sans-fallback;
 $font-serif: Georgia, serif;
 $font-icons: "Fontello";
 $icon-down-open: '\e75c'; // down open arrow
@@ -160,10 +160,10 @@ $light-purple: lighten($purple, 60%);
 $light-purple-dark: darken($light-purple, 10%);
 
 $font-serif: "Playtime", Georgia, serif;
-$font-sans: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
-$font-sans-bold: "OpenSansBold", "Myriad Pro", Trebuchet, sans-serif;
-$font-sans-italic: "OpenSansItalic", "Myriad Pro", Trebuchet, sans-serif;
-$font-sans-bold-italic: "OpenSansBoldItalic", "Myriad Pro", Trebuchet, sans-serif;
+$font-sans: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
+$font-sans-bold: "Open Sans Bold", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
+$font-sans-italic: "Open Sans Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
+$font-sans-bold-italic: "Open Sans Bold Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
 
 $bp-small: 37.5em;
 $bp-large: 48em;

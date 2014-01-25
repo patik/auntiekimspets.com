@@ -54,25 +54,25 @@ body button.button {
 }
 
 .icon-facebook {
-    background-image: url("/inc/img/icons/facebook-icon.png");
+    background-image: url("/img/icons/facebook-icon.png");
 }
 
 .icon-twitter {
-    background-image: url("/inc/img/icons/twitter-icon-blue.png");
+    background-image: url("/img/icons/twitter-icon-blue.png");
     @include border-radius($baseBorderRadius);
 }
 
 .svg {
     .icon-facebook {
-        background-image: url("/inc/img/icons/facebook-icon.svg");
+        background-image: url("/img/icons/facebook-icon.svg");
     }
 
     .icon-twitter {
-        background-image: url("/inc/img/icons/twitter-icon-blue.svg");
+        background-image: url("/img/icons/twitter-icon-blue.svg");
     }
 
     // Ugh. Opera won't load this SVG for some reason
     .opera .icon-twitter {
-        background-image: url("/inc/img/icons/twitter-icon-blue.png");
+        background-image: url("/img/icons/twitter-icon-blue.png");
     }
 }

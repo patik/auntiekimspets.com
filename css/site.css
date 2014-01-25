@@ -14,48 +14,48 @@ img, video {
 
 @font-face {
   font-family: 'Playtime';
-  src: url("/inc/fonts/playtime/playtime.eot");
-  src: url("/inc/fonts/playtime/playtime.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/playtime/playtime.woff") format("woff"), url("/inc/fonts/playtime/playtime.ttf") format("truetype"), url("/inc/fonts/playtime/playtime.svg#PlaytimeRegular") format("svg");
+  src: url("/fonts/playtime/playtime.eot");
+  src: url("/fonts/playtime/playtime.eot?#iefix") format("embedded-opentype"), url("/fonts/playtime/playtime.woff") format("woff"), url("/fonts/playtime/playtime.ttf") format("truetype"), url("/fonts/playtime/playtime.svg#PlaytimeRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Playtime';
-  src: url("/inc/fonts/playtime/playtime-italic.eot");
-  src: url("/inc/fonts/playtime/playtime-italic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/playtime/playtime-italic.woff") format("woff"), url("/inc/fonts/playtime/playtime-italic.ttf") format("truetype"), url("/inc/fonts/playtime/playtime-italic.svg#PlaytimeItalic") format("svg");
+  src: url("/fonts/playtime/playtime-italic.eot");
+  src: url("/fonts/playtime/playtime-italic.eot?#iefix") format("embedded-opentype"), url("/fonts/playtime/playtime-italic.woff") format("woff"), url("/fonts/playtime/playtime-italic.ttf") format("truetype"), url("/fonts/playtime/playtime-italic.svg#PlaytimeItalic") format("svg");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot");
-  src: url("/inc/fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Regular.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Regular.svg#OpenSans") format("svg");
+  font-family: 'Open Sans';
+  src: url("/fonts/open-sans/OpenSans-Regular.eot");
+  src: url("/fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans/OpenSans-Regular.woff") format("woff"), url("/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"), url("/fonts/open-sans/OpenSans-Regular.svg#OpenSans") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot");
-  src: url("/inc/fonts/open-sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Italic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Italic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Italic.svg#OpenSansItalic") format("svg");
+  font-family: 'Open Sans';
+  src: url("/fonts/open-sans/OpenSans-Italic.eot");
+  src: url("/fonts/open-sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans/OpenSans-Italic.woff") format("woff"), url("/fonts/open-sans/OpenSans-Italic.ttf") format("truetype"), url("/fonts/open-sans/OpenSans-Italic.svg#OpenSansItalic") format("svg");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot");
-  src: url("/inc/fonts/open-sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-Bold.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-Bold.svg#OpenSansBold") format("svg");
+  font-family: 'Open Sans';
+  src: url("/fonts/open-sans/OpenSans-Bold.eot");
+  src: url("/fonts/open-sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans/OpenSans-Bold.woff") format("woff"), url("/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"), url("/fonts/open-sans/OpenSans-Bold.svg#OpenSansBold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot");
-  src: url("/inc/fonts/open-sans/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.woff") format("woff"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype"), url("/inc/fonts/open-sans/OpenSans-BoldItalic.svg#OpenSansBoldItalic") format("svg");
+  font-family: 'Open Sans';
+  src: url("/fonts/open-sans/OpenSans-BoldItalic.eot");
+  src: url("/fonts/open-sans/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/open-sans/OpenSans-BoldItalic.woff") format("woff"), url("/fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype"), url("/fonts/open-sans/OpenSans-BoldItalic.svg#OpenSansBoldItalic") format("svg");
   font-weight: bold;
   font-style: italic;
 }
@@ -67,7 +67,7 @@ html, body {
 
 /* line 8, ../scss/components/_general.scss */
 body {
-  font-family: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
 }
 
 /* line 12, ../scss/components/_general.scss */
@@ -101,27 +101,27 @@ h6 {
 
 /* line 34, ../scss/components/_general.scss */
 p {
-  font-family: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
 }
 
 /* line 39, ../scss/components/_general.scss */
 em,
 i {
-  font-family: "OpenSansItalic", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-style: normal;
 }
 
 /* line 44, ../scss/components/_general.scss */
 strong,
 b {
-  font-family: "OpenSansBold", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Bold", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal;
 }
 
 /* line 49, ../scss/components/_general.scss */
 strong em,
 em strong {
-  font-family: "OpenSansBoldItalic", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Bold Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -145,7 +145,7 @@ abbr {
 
 /* line 72, ../scss/components/_general.scss */
 .tagline {
-  font-family: "OpenSansItalic", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-style: normal;
   text-align: center;
 }
@@ -224,7 +224,7 @@ figure img {
 
 /* line 151, ../scss/components/_general.scss */
 .form-response {
-  font-family: "OpenSansBoldItalic", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Bold Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 140%;
@@ -233,7 +233,7 @@ figure img {
 
 /* line 158, ../scss/components/_general.scss */
 .home-phone p:first-child {
-  font-family: "OpenSansBold", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Bold", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal;
   margin-bottom: 0;
 }
@@ -273,7 +273,7 @@ header h1 a {
   display: block;
   height: 88px;
   text-indent: -9999em;
-  background-image: url(/inc/img/logo/auntie-kims-block.png);
+  background-image: url(/img/logo/auntie-kims-block.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -340,7 +340,7 @@ nav a:hover {
 /* line 15, ../scss/components/_tables.scss */
 .rates td > span, .rates th > span {
   font-size: 90%;
-  font-family: "OpenSansItalic", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Italic", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-style: normal;
 }
 /* line 20, ../scss/components/_tables.scss */
@@ -396,27 +396,27 @@ body button.button.min-48 {
 
 /* line 56, ../scss/components/_buttons.scss */
 .icon-facebook {
-  background-image: url("/inc/img/icons/facebook-icon.png");
+  background-image: url("/img/icons/facebook-icon.png");
 }
 
 /* line 60, ../scss/components/_buttons.scss */
 .icon-twitter {
-  background-image: url("/inc/img/icons/twitter-icon-blue.png");
+  background-image: url("/img/icons/twitter-icon-blue.png");
   border-radius: 0.25em;
   background-clip: padding-box;
 }
 
 /* line 66, ../scss/components/_buttons.scss */
 .svg .icon-facebook {
-  background-image: url("/inc/img/icons/facebook-icon.svg");
+  background-image: url("/img/icons/facebook-icon.svg");
 }
 /* line 70, ../scss/components/_buttons.scss */
 .svg .icon-twitter {
-  background-image: url("/inc/img/icons/twitter-icon-blue.svg");
+  background-image: url("/img/icons/twitter-icon-blue.svg");
 }
 /* line 75, ../scss/components/_buttons.scss */
 .svg .opera .icon-twitter {
-  background-image: url("/inc/img/icons/twitter-icon-blue.png");
+  background-image: url("/img/icons/twitter-icon-blue.png");
 }
 
 /* line 8, ../scss/components/_forms.scss */
@@ -441,7 +441,7 @@ fieldset legend {
   font-size: 24px;
   line-height: 40px;
   color: #333333;
-  font-family: "OpenSansBold", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans Bold", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
@@ -469,7 +469,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-weight: normal !important;
   font-style: normal !important;
   border-radius: 0.25em;
@@ -503,7 +503,7 @@ input[type="tel"],
 input[type="color"] {
   display: inline-block;
   padding: 4px 6px;
-  font-family: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-size: 16px;
   line-height: 20px;
   border-radius: 0.25em;
@@ -622,7 +622,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-  font-family: "OpenSans", "Myriad Pro", Trebuchet, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Segoe UI", Trebuchet, sans-serif;
   font-size: 16px;
 }
 
@@ -1248,7 +1248,7 @@ img.mfp-img {
   /* line 9, ../scss/components/_navigation.scss */
   header h1 a {
     height: 72px;
-    background-image: url(/inc/img/logo/auntie-kims-wide.png);
+    background-image: url(/img/logo/auntie-kims-wide.png);
     background-size: 100%;
   }
 }
