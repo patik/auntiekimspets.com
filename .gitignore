@@ -1,15 +1,15 @@
 # Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
+# *.diff
+# *.err
+# *.orig
+# *.log
+# *.rej
+# *.swo
+# *.swp
+# *.vi
+# *~
 *.sass-cache
-*.sublime-*
+# *.sublime-*
 
 # OS or Editor folders
 .DS_Store
@@ -18,8 +18,8 @@ Thumbs.db
 .sass-cache
 
 # Static site output
-_site
-sass
+# _site
+# sass
 stylesheets
 
 # Grunt Build
@@ -28,5 +28,3 @@ node_modules
 # Private
 inc/keys.php
 sftp-config.json
-other-domains
-inc/img/old
