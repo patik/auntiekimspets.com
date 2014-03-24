@@ -131,21 +131,21 @@ $inputHeight:                   $baseLineHeight + 10px; // base line-height + 8p
 
 // Form states and alerts
 // -------------------------
-$warningText:             #c09853 !default;
-$warningBackground:       #fcf8e3 !default;
-$warningBorder:           darken(adjust-hue($warningBackground, -10), 3%) !default;
+// $warningText:             #c09853 !default;
+// $warningBackground:       #fcf8e3 !default;
+// $warningBorder:           darken(adjust-hue($warningBackground, -10), 3%) !default;
 
 $errorText:               #b94a48 !default;
-$errorBackground:         #f2dede !default;
-$errorBorder:             darken(adjust-hue($errorBackground, -10), 3%) !default;
+// $errorBackground:         #f2dede !default;
+// $errorBorder:             darken(adjust-hue($errorBackground, -10), 3%) !default;
 
-$successText:             #468847 !default;
-$successBackground:       #dff0d8 !default;
-$successBorder:           darken(adjust-hue($successBackground, -10), 5%) !default;
+// $successText:             #468847 !default;
+// $successBackground:       #dff0d8 !default;
+// $successBorder:           darken(adjust-hue($successBackground, -10), 5%) !default;
 
-$infoText:                #3a87ad !default;
-$infoBackground:          #d9edf7 !default;
-$infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
+// $infoText:                #3a87ad !default;
+// $infoBackground:          #d9edf7 !default;
+// $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
 
 // --------------------------------------------------------------
 // --------------------------------------------------------------
@@ -168,3 +168,59 @@ $font-sans-bold-italic: "Open Sans Bold Italic", "Myriad Pro", "Segoe UI", Trebu
 $bp-small: 37.5em;
 $bp-large: 48em;
 $bp-full: 60em;
+
+// --------------------
+// Foundation overrides
+// --------------------
+
+@import "foundation/components/_global";
+
+// Pricing Tables
+// $include-html-pricing-classes: $include-html-classes;
+
+// We use this to control the border color
+$price-table-border: solid 1px $purple-dark;
+
+// We use this to control the bottom margin of the pricing table
+// $price-table-margin-bottom: rem-calc(20);
+
+// We use these to control the title styles
+$price-title-bg: $purple-dark;
+// $price-title-padding: rem-calc(15 20);
+// $price-title-align: center;
+// $price-title-color: #eee;
+// $price-title-weight: normal;
+// $price-title-size: rem-calc(16);
+// $price-title-font-family: $body-font-family;
+
+// We use these to control the price styles
+$price-money-bg: rgba(#f6f6f6, 0.3);
+// $price-money-padding: rem-calc(15 20);
+// $price-money-align: center;
+// $price-money-color: #333;
+// $price-money-weight: normal;
+// $price-money-size: rem-calc(32);
+// $price-money-font-family: $body-font-family;
+
+// We use these to control the description styles
+$price-bg: transparent;
+$price-desc-color: $purple-dark;
+// $price-desc-padding: rem-calc(15);
+// $price-desc-align: center;
+// $price-desc-font-size: rem-calc(12);
+// $price-desc-weight: normal;
+// $price-desc-line-height: 1.4;
+$price-desc-bottom-border: dotted 1px $light-purple-dark;
+
+// We use these to control the list item styles
+// $price-item-color: #333;
+// $price-item-padding: rem-calc(15);
+// $price-item-align: center;
+// $price-item-font-size: rem-calc(14);
+// $price-item-weight: normal;
+$price-item-bottom-border: dotted 1px $light-purple-dark;
+
+// We use these to control the CTA area styles
+$price-cta-bg: transparent;
+// $price-cta-align: center;
+// $price-cta-padding: rem-calc(20 20 0);

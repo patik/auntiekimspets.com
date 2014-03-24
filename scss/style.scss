@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
+@import "components/_variables.scss";
+@import "normalize.scss";
+// @import "_foundation-overrides.scss";
+@import "foundation.scss";
+
 @import "compass";
 @import "breakpoint";
 @import "toolkit";
 $breakpoint-no-queries: false;
 $breakpoint-no-query-wrappers: false;
-@import "components/_variables.scss";
 @import "components/_mixins.scss";
 @import "components/_fonts.scss";
 @import "components/_general.scss";
