@@ -15,7 +15,7 @@ class Print_html
         $this->page = 'home';
         $this->section = 'home';
         $this->pageTitle = '';
-        $this->keywords = 'pet sitting,Colonie,Latham,pets,dogs,cats,pet sitter,dog walking,Latham,Albany,pet,NY,Auntie Kim';
+        $this->keywords = 'pet sitting,Colonie,Latham,pets,dogs,cats,pet sitter,dog walking,Colonie,Albany,pet,NY,Auntie Kim';
         $this->dirLevel = 0;
         $this->styleSheets = array();
         $this->scriptFiles = array();
@@ -91,7 +91,7 @@ class Print_html
             <a href="/">Home</a>
         </div>
         <div class="small-6 medium-4 large-2 columns">
-            <a<?php if ($this->name === 'about') { echo ' class="current"'; } ?> href="<?php $this->print_dir_level(); ?>about/">About Us</a>
+            <a<?php if ($this->name === 'about') { echo ' class="current"'; } ?> href="<?php $this->print_dir_level(); ?>about/">About</a>
         </div>
         <div class="small-6 medium-4 large-2 columns">
             <a<?php if ($this->name === 'services') { echo ' class="current"'; } ?> href="<?php $this->print_dir_level(); ?>services/">Services &amp; Rates</a>
@@ -195,8 +195,7 @@ class Print_html
     <? } ?>
 </body>
 </html>
-    <?php
-        }
+<?php
     }
 }
 
