@@ -40,6 +40,42 @@ function print_page_body()
             </div>
 
             <div class="row">
+                <div class="small-12 medium-4 columns">
+                    <ul class="pricing-table">
+                        <li class="title">Standard</li>
+                        <li class="description">Our most popular</li>
+                        <li class="bullet-item callout">30 minute visit</li>
+                        <li class="bullet-item">1-4 pets</li>
+                        <li class="bullet-item">Feeding, refreshed water, and medicine</li>
+                        <li class="bullet-item">Walk and exercise</li>
+                        <li class="price">$18.00</li>
+                    </ul>
+                </div>
+                <div class="small-12 medium-4 columns">
+                    <ul class="pricing-table">
+                        <li class="title">Extended</li>
+                        <li class="description">Our most popular</li>
+                        <li class="bullet-item callout">45 minute visit</li>
+                        <li class="bullet-item">1-4 pets</li>
+                        <li class="bullet-item">Feeding, refreshed water, and medicine</li>
+                        <li class="bullet-item">Walk and exercise</li>
+                        <li class="price">$24.00</li>
+                    </ul>
+                </div>
+                <div class="small-12 medium-4 columns">
+                    <ul class="pricing-table">
+                        <li class="title">Extra TLC</li>
+                        <li class="description">Plenty of attention</li>
+                        <li class="bullet-item callout">1 hour visit</li>
+                        <li class="bullet-item">1-4 pets</li>
+                        <li class="bullet-item">Feeding, refreshed water, and medicine</li>
+                        <li class="bullet-item">Walk and exercise</li>
+                        <li class="price">$30.00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="small-12 columns">
                     <h2>Mid-Day Dog Walking</h2>
                     <p><em>Additional 5% off when you pay monthly up front</em></p>
@@ -52,12 +88,8 @@ function print_page_body()
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1-4 visits per week</td>
-                                <td>$17.00<br><span>per visit</span></td>
-                            </tr>
-                            <tr>
-                                <td>5 visits per week</td>
-                                <td>$16.00<br><span>per visit</span></td>
+                                <td>1-5 visits per week</td>
+                                <td>$18.00<br><span>per visit</span></td>
                             </tr>
                         </tbody>
                     </table>
