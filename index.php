@@ -53,10 +53,20 @@ function print_page_body()
                 </figure>
             </div>
 
+            <div class="row panel margin-top-medium">
+                <div class="small-4 columns">
+                    <div class="right">
+                        <a href="http://www.localpetsitters.com/"><img src="img/capps-logo.png" alt="Capital Area Professional Pet Sitters logo" style="max-width:100px;"></a>
+                    </div>
+                </div>
+                <div class="small-8 columns">
+                    <p>Member of <a href="http://www.localpetsitters.com/">Capital Area Professional Pet Sitters</a></p>
+                </div>
+            </div>
 
             <div class="row margin-top-medium">
                 <div class="small-12 columns">
-                    <div class="panel center">Contact <a href="http://www.auntiemartas.com">Auntie Marta’s Pet Sitting Services</a> for Clifton Park, Halfmoon and southern Saratoga County</div>
+                    <div class="center">Contact <a href="http://www.auntiemartas.com">Auntie Marta’s Pet Sitting Services</a> for Clifton Park, Halfmoon and southern Saratoga County</div>
                 </div>
             </div>
     <?php
